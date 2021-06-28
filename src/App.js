@@ -1,11 +1,11 @@
-
-
+import Theme from './styles/Theme';
+import GlobalStyle from './styles/GlobalStyle';
 
 function App() {
   return (
-    <div>
-      oi
-    </div>
+    <Theme>
+      <GlobalStyle />
+    </Theme>
   );
 }
 
