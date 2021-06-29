@@ -25,5 +25,6 @@ module.exports = {
     'react/prop-types': 'off',
     'no-console': 'warn',
     'react/jsx-props-no-spreading': 'off',
+    'no-unused-vars': 'off',
   },
 };
