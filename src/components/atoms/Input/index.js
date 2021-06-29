@@ -3,7 +3,7 @@ import { darken } from 'polished';
 
 const Input = styled.input`
   padding: 0.9rem;
-  background-color: ${(props) => props.theme.colors.helper};
+  background-color: ${(props) => props.theme.colors[props.color]};
   border: none;
   border-radius: 10px;
   text-align: center;
@@ -16,5 +16,9 @@ const Input = styled.input`
     color: ${(props) => props.theme.colors.placeholder};
   }
 `;
+
+Input.defaultProps = {
+  color: 'helper',
+};
 
 export default Input;
