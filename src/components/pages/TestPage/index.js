@@ -1,15 +1,14 @@
 import React from 'react';
-import Button from '../../atoms/Button';
-import Input from '../../atoms/Input';
-import BaseCard from '../../atoms/BaseCard';
-import NoteLogo from '../../atoms/NoteLogo';
+import { HiOutlineMail } from 'react-icons/hi';
+import TextField from '../../molecules/TextField';
 
 const TestPage = () => (
   <>
-    <Button>Login</Button>
-    <Input placeholder="name@emxample.com" />
-    <BaseCard />
-    <NoteLogo />
+    <TextField
+      placeholder="example@hhshsh.com"
+      icon={HiOutlineMail}
+      color="helper"
+    />
   </>
 );
 
