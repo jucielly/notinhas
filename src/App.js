@@ -1,14 +1,15 @@
+import { BrowserRouter, Route } from 'react-router-dom';
 import Theme from './styles/Theme';
 import GlobalStyle from './styles/GlobalStyle';
-import TestPage from './components/pages/TestPage';
+import Routes from './routes';
 
-function App() {
-  return (
-    <Theme>
-      <GlobalStyle />
-      <TestPage />
-    </Theme>
-  );
-}
+const App = () => (
+  <Theme>
+    <GlobalStyle />
+    <BrowserRouter>
+      <Routes />
+    </BrowserRouter>
+  </Theme>
+);
 
 export default App;
