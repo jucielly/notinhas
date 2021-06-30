@@ -1,15 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import LoginAndregister from '../../templates/LoginAndRegister';
-import LoginForm from '../LoginForm';
+import RegisterForm from '../RegisterForm';
 
-const LoginCard = () => (
+const RegisterCard = () => (
   <LoginAndregister>
-    <LoginForm />
+    <RegisterForm />
     <span>
-      Não tem uma conta? <Link to="/register">Cadastre-se</Link>
+      Já tem uma conta? <Link to="/login">Login</Link>
     </span>
   </LoginAndregister>
 );
 
-export default LoginCard;
+export default RegisterCard;

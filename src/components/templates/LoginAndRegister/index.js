@@ -40,6 +40,7 @@ const Card = styled.div`
     color: ${(props) => props.theme.colors.secondary};
     font-size: ${(props) => props.theme.fonts.fontSizes.XXL};
     font-weight: lighter;
-    margin: 4rem;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
   }
 `;
