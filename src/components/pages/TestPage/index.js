@@ -1,16 +1,6 @@
 import React from 'react';
-import Button from '../../atoms/Button';
-import Input from '../../atoms/Input';
-import BaseCard from '../../atoms/BaseCard';
-import NoteLogo from '../../atoms/NoteLogo';
+import LoginandRegister from '../../templates/LoginAndRegister';
 
-const TestPage = () => (
-  <>
-    <Button>Login</Button>
-    <Input placeholder="name@emxample.com" />
-    <BaseCard />
-    <NoteLogo />
-  </>
-);
+const TestPage = () => <LoginandRegister />;
 
 export default TestPage;
