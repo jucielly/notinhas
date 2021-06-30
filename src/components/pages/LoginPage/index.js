@@ -1,9 +1,6 @@
 import React from 'react';
+import LoginCard from '../../organisms/LoginCard';
 
-const LoginPage = () => (
-  <div>
-    <div>pi</div>
-  </div>
-);
+const LoginPage = () => <LoginCard />;
 
 export default LoginPage;

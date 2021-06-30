@@ -6,7 +6,6 @@ const Input = styled.input`
   background-color: ${(props) => props.theme.colors[props.color]};
   border: none;
   border-radius: 10px;
-  text-align: center;
 
   & + input {
     margin: 1rem;

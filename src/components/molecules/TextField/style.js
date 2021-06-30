@@ -7,7 +7,7 @@ export const Wrapper = styled.div`
   .input {
     color: ${(props) => props.theme.colors.fontColor};
     width: 100%;
-    padding-left: 70px;
+    text-align: center;
   }
   .icon {
     position: absolute;

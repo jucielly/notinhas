@@ -19,6 +19,11 @@ const Container = styled.div`
   display: flex;
   align-items: stretch;
   background-color: ${(props) => props.theme.colors.primary};
+
+  a,
+  a:visited {
+    color: ${(props) => props.theme.colors.secondary};
+  }
 `;
 
 const Card = styled.div`
