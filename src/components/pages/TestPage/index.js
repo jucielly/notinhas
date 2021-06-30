@@ -1,10 +1,10 @@
 import React from 'react';
 import { HiOutlineMail } from 'react-icons/hi';
-import Loginform from '../../organisms/LoginForm';
+import RegisterForm from '../../organisms/RegisterForm';
 
 const TestPage = () => (
   <>
-    <Loginform />
+    <RegisterForm />
   </>
 );
 
