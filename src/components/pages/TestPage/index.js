@@ -1,10 +1,10 @@
 import React from 'react';
 import { HiOutlineMail } from 'react-icons/hi';
-import RegisterForm from '../../organisms/RegisterForm';
+import LoginandRegister from '../../templates/LoginAndRegister';
 
 const TestPage = () => (
   <>
-    <RegisterForm />
+    <LoginandRegister />
   </>
 );
 

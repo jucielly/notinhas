@@ -21,6 +21,7 @@ const theme = {
       M: '1.2em',
       L: '2em',
       XL: '3em',
+      XXL: '5em',
     },
   },
 };
